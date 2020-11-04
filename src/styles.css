@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.section {
+  border-top: 1px solid #000;
+  margin-top: 10px;
+  padding: 10px;
+}
