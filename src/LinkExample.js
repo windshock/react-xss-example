@@ -6,7 +6,8 @@ export const LinkExample = () => {
   const unsanitized = "<a href=\"javascript:alert('xss')\"><b>click me</b></a>";
   const sanitized = sanitize(unsanitized);
   const sanitizedAndWhitelistTag = sanitize(unsanitized, {
-    ALLOWED_TAGS: ["a"]
+    ALLOWED_TAGS: ["a"],
+    ALLOWED_URI_REGEXP: /^(?:(?:(?:f|ht)tps?|mailto|tel|callto|cid|xmpp|xxx):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i
   });
   return (
     <>
