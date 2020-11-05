@@ -1,5 +1,5 @@
 {
-  "name": "reacthtmlparser-xss-examples",
+  "name": "react-xss-examples",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -9,7 +9,7 @@
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-html-parser": "2.0.2",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^4.0.0"
   },
   "devDependencies": {
     "typescript": "3.8.3"
