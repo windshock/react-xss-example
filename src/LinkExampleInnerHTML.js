@@ -1,5 +1,5 @@
 import React from "react";
-import DOMPurify from 'dompurify';
+import DOMPurify from "dompurify";
 // 테스트 코드는 아래를 참고
 // https://github.com/cure53/DOMPurify/blob/307c7d0dde17a2d1f27049d6d39add24144ba87c/test/test-suite.js
 
